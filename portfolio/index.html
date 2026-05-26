@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ポートフォリオ | yuga</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <button class="nav-toggle" id="navToggle" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a href="#top" class="logo">Portfolio</a>
+      <nav class="nav" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#works">Works</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <div class="hero__panel">
+          <p class="eyebrow">Web Designer / Coder</p>
+          <h1>yuga</h1>
+          <p class="hero__lead">シンプルで洗練されたデザインと、心地よい体験をつくります。</p>
+          <p class="hero__description">Webデザイン・コーディングを中心に、大阪を拠点に活動しています。ユーザーに寄り添う表現を大切にし、価値あるものづくりを目指しています。</p>
+          <div class="hero__actions">
+            <a class="button button--ghost" href="#works">View Works</a>
+            <a class="button button--outline" href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="hero__photo">
+          <img src="img/profile.jpg" alt="yuga プロフィール写真" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--about" id="about">
+      <div class="container about__inner">
+        <div class="about__text">
+          <span class="section__label">About</span>
+          <h2>想いをカタチに、伝わるデザインを。</h2>
+          <p>はじめまして、yugaです。Webサイト制作とコーディングを中心に活動しています。シンプルでユーザーに寄り添うデザインを心がけ、クライアントの想いを丁寧に表現します。</p>
+          <ul class="about__list">
+            <li>洗練されたビジュアル表現</li>
+            <li>読みやすいインターフェース設計</li>
+            <li>レスポンシブ & 高速な実装</li>
+          </ul>
+        </div>
+        <div class="about__visual">
+          <div class="about__visual-box"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--works" id="works">
+      <div class="container section__inner">
+        <div class="section__header section__header--wide">
+          <span class="section__label">Works</span>
+          <h2>制作事例</h2>
+        </div>
+        <div class="works-grid">
+          <article class="work-card">
+            <div class="work-card__thumb"></div>
+            <div class="work-card__body">
+              <p class="work-card__title">Kifco</p>
+              <p class="work-card__meta">Web Design / Coding</p>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-card__thumb"></div>
+            <div class="work-card__body">
+              <p class="work-card__title">mm. | organic skincare</p>
+              <p class="work-card__meta">Web Design / Coding</p>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-card__thumb"></div>
+            <div class="work-card__body">
+              <p class="work-card__title">SHE, inc.</p>
+              <p class="work-card__meta">Web Design</p>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-card__thumb"></div>
+            <div class="work-card__body">
+              <p class="work-card__title">café aina</p>
+              <p class="work-card__meta">Web Design / Coding</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--blog" id="blog">
+      <div class="container section__inner">
+        <div class="section__header section__header--wide">
+          <span class="section__label">Blog</span>
+          <h2>普段はこんな感じです。</h2>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-card__image">
+              <img src="img/IMG_7165.jpeg" alt="山の景色" />
+            </div>
+            <h3>山登りの記録</h3>
+            <p>週末は山に登って自然の空気をたっぷり吸い込みます。景色や道中の風景が大きなインスピレーションです。</p>
+          </article>
+          <article class="blog-card">
+            <div class="blog-card__image">
+              <img src="img/IMG_8798.jpeg" alt="森の散策" />
+            </div>
+            <h3>自然散策</h3>
+            <p>森や川沿いの散歩が好きです。季節の移ろいを感じながら、写真やメモを残しています。</p>
+          </article>
+          <article class="blog-card">
+            <div class="blog-card__image">
+              <img src="img/IMG_8802.jpeg" alt="自然の風景" />
+            </div>
+            <h3>リラックス時間</h3>
+            <p>自然の中で過ごす時間が、制作のアイデアにつながります。ゆったりとした休日の過ごし方を大切にしています。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__card">
+          <span class="section__label">Contact</span>
+          <h2>お仕事のご依頼・ご相談はこちらから。</h2>
+          <p>下記のメールまたはSNSより、お気軽にお問い合わせください。</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> yuga@example.com</li>
+            <li><strong>Instagram:</strong> @yuga_webdesign</li>
+          </ul>
+          <a class="button button--ghost" href="#top">Contact Form →</a>
+        </div>
+        <div class="contact__visual"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 yuga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
